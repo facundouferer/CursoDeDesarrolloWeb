@@ -1,24 +1,22 @@
-.rojo {
-    background-color: red;
+.tabla {
+    text-align: justify;
+    vertical-align: top;
+    background-color: antiquewhite;
 }
 
-.azul {
-    background-color: blue;
-}
-
-.verde {
-    background-color: green;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    font-style: italic;
-    color: brown;
-}
-
-.imagen-propia {
+.img-centro {
     width: 100%;
+}
+
+.img-inicio {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.lupa {
+    width: 30px;
 }

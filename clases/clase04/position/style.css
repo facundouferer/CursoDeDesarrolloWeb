@@ -1,0 +1,12 @@
+.bordes {
+    position: absolute;
+    left: 230px;
+    width: 200px;
+    background-color: burlywood;
+}
+
+.bordes2 {
+    position: absolute;
+    width: 200px;
+    background-color: aqua;
+}
