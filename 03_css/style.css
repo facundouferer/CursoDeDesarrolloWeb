@@ -1,0 +1,24 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.importante {
+    margin: 3px;
+    padding: 3px;
+    border: black 2px solid;
+}
+
+.col-3 {
+    margin: 0 auto;
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin: 3px;
+    padding: 3px;
+    border: black 2px solid;
+}
+
+form {
+    border: black 2px solid;
+}
