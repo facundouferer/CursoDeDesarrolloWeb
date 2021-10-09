@@ -1,10 +1,8 @@
 body {
     width: 800px;
     margin: 0 auto;
-}
-
-.imporante {
-    color: red;
+    background-image: url("fondo.png");
+    background-repeat: round;
 }
 
 .col-3 {
@@ -31,4 +29,31 @@ body {
 .form-texto {
     float: left;
     width: 33%;
+}
+
+a {
+    color: red;
+    font-family: 'Akronim', cursive;
+    text-decoration: none;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    border: black 2px solid;
+}
+
+a:hover {
+    color: aqua;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    color: aqua;
+}
+
+.titulo-raro {
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 50px;
 }

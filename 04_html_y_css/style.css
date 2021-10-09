@@ -1,0 +1,85 @@
+/*
+    Fuentes directo de google-fonts con import
+    Los import van primeros 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* 
+    Colocar las funentes de forma local: 
+    Descargar las fuentes de Google Fonts en formato WOFF2
+    desde: https://canonicalized.com/local-font/
+*/
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url("fonts/open-sans-condensed-v15-latin-300.woff2");
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+}
+
+.intro {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 1.7;
+    margin-bottom: 2.25em;
+    max-width: 33em;
+    margin-left: 0;
+}
+
+.boton {
+    font-size: 24px;
+}
+
+a.boton {
+    background: #f74545;
+    color: #fff;
+    padding: 0.7em 1em 0.7em;
+    font-family: "ITC Franklin Bd", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a.boton:hover {
+    background: black;
+}
+
+.articulo {
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.derecho {
+    margin-top: 80px;
+}
+
+.imagen {
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 1.75em;
+    margin-bottom: 2.25em;
+}
+
+.separador {
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 500px;
+}
+
+ul.navega li {
+    display: inline;
+}

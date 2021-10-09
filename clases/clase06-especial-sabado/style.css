@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@font-face {
+    font-family: 'Oswald';
+    src: url("fonts/oswald-v40-latin-700.woff2");
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+}
+
+.intro {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    margin-bottom: 2.25em;
+    max-width: 30em;
+    margin-left: 0;
+    line-height: 1.5em;
+}
+
+.boton {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.boton {
+    background: #C83E20;
+    color: white;
+    padding: 0.5em 1em 0.5em;
+    text-decoration: none;
+}
+
+a.boton:hover {
+    background: black;
+}
+
+.articulo {
+    margin: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.derecha {
+    margin-top: 200px;
+}
+
+.imagen {
+    max-width: 100%;
+    width: auto;
+    margin-bottom: 2em;
+}
