@@ -1,0 +1,28 @@
+body {
+    background-color: #FFC300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: green;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #C70039;
+    color: #F1C40F;
+    padding: 10px;
+    border: #900C3F 3px solid;
+    border-radius: 20px;
+}
+
+.parrafo_especial {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+ul {
+    color: #FF5733;
+}
