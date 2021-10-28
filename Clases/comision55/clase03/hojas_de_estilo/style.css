@@ -26,3 +26,8 @@ h2 {
 ul {
     color: #FF5733;
 }
+
+p {
+    border: red 5px dashed;
+    padding: 10px;
+}

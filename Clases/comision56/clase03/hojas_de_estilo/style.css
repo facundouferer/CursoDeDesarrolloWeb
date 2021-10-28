@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background-color: #51050F;
+    color: white;
+    line-height: 160%;
+}
+
+h1 {
+    background-color: #AB6D23;
+    font-family: monospace;
+    padding: 20px;
+    color: #51050F;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.titulo_especial {
+    background-color: #E02401;
+    border: #F78812 3px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #51050F;
+}
+
+h2 {
+    padding: 20px;
+    border: #E02401 2px dotted;
+    border-bottom-right-radius: 20px;
+}
+
+table {
+    background-color: #F78812;
+    color: white;
+}
+
+.decorado {
+    font: oblique bold 120% cursive;
+    border-style: dashed;
+}
+
+.sombra {
+    color: white;
+    text-shadow: black 4px 4px 7px;
+}
+
+img {
+    width: 50%;
+    border-radius: 30px;
+}
