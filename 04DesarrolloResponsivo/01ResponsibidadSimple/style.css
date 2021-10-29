@@ -2,6 +2,8 @@ body {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Helvetica;
+    line-height: 1.5;
 }
 
 .columna {
@@ -15,4 +17,14 @@ body {
 
 img {
     width: 100%;
+}
+
+/*  font-size puede tener
+1) xx-small | x-small | small | medium | large | x-large | xx-large
+2) smaller | larger
+3) <longitud> | <porcentaje> | inherit
+ */
+
+p {
+    font-size: medium;
 }

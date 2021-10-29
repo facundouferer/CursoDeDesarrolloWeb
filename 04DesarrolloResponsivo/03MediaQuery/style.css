@@ -48,14 +48,11 @@ img {
         float: none;
         margin: 10%;
     }
+    .grande {
+        display: none;
+    }
 }
 
 .grande {
     font-size: 30px;
-}
-
-@media screen and (max-width: 800px) {
-    .grande {
-        display: none;
-    }
 }
