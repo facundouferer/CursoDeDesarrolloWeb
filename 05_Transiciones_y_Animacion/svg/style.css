@@ -1,0 +1,28 @@
+svg {
+    border: black 2px solid;
+}
+
+circle {
+    stroke-width: 5px;
+    stroke-linejoin: round;
+    stroke: blue;
+    fill: red;
+}
+
+rect {
+    stroke-width: 5px;
+    stroke-linejoin: round;
+    stroke: green;
+    fill: red;
+}
+
+.coloreado {
+    stroke-width: 5px;
+    stroke-linejoin: round;
+    stroke: brown;
+    fill: chocolate;
+}
+
+text {
+    font-family: Helvetica;
+}

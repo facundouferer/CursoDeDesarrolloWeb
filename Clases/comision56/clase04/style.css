@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica;
+    background-color: #EAE7C6;
+    line-height: 1.5;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.imagen_recubierta {
+    width: 20%;
+    float: left;
+}
+
+.columna {
+    float: left;
+    background-color: #C37B89;
+    padding: 1%;
+    margin: 1%;
+    width: 46%;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #BCCC9A;
+    }
+    .columna {
+        width: 100%;
+    }
+    .imagen_recubierta {
+        width: 100%;
+        display: none;
+    }
+}
