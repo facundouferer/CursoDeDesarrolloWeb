@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+    font-family: Helvetica;
+}
+
+.flex-container {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%
+}
+
+.flex-container div {
+    background-color: chartreuse;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: black 2px solid;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: left;
+}

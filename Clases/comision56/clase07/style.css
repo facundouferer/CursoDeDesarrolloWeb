@@ -1,0 +1,59 @@
+body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica;
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    float: left;
+    border-radius: 20px;
+    border: red 5px solid;
+    margin: 10px;
+}
+
+.columna {
+    padding: 1%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    float: left;
+    margin: 5px;
+}
+
+.uno {
+    width: 45%;
+    background-color: orange;
+}
+
+.dos {
+    width: 45%;
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 800px) {
+    .uno {
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .dos {
+        width: 100%;
+    }
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 30px;
+    }
+    img {
+        width: 100%;
+    }
+}

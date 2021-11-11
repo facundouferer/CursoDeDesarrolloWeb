@@ -21,3 +21,7 @@ body {
     font-size: 30px;
     border: black 2px solid;
 }
+
+h2 {
+    color: darkblue;
+}

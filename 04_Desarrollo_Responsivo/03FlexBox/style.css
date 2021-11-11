@@ -4,6 +4,7 @@
 */
 
 .flex-container {
+    /*para que sea FELXBOX tiene que tener  display: flex;*/
     display: flex;
     /*nowrap - wrap - wrap-reverse*/
     flex-wrap: wrap-reverse;
