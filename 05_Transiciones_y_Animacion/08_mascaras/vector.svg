@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50">
+
+    <defs>
+        <style>
+            @import url(style.css);
+        </style>
+
+        <clipPath id="mascara">
+            <text x="0" y="50%" font-size="10">
+                FACUNDO
+            </text>
+        </clipPath>
+
+    </defs>
+
+    <image clip-path="url(#mascara)" href="./imagen.jpg" height="100%" width="100%" />
+</svg>

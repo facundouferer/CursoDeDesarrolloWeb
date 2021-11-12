@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="1024" height="768">
+       
+        <rect x=50 y=50 width="200" height="100" fill="blue" class="figura" />
+       
+        <circle cx="360" cy="160" r="100" fill="red" class="figura" />
+
+        <line x1="200" y1="400" x2="500" y2="600" stroke="black" stroke-width="15" stroke-linecap="round" />
+
+        <polygon class="figura" points="170,490 170,391 252,335 425,326 369,408 " />
+
+        <path id="linea" d="M300,500c0,0,329-416,658,0" class="textoCurvo"/>
+
+        <text>
+            <textPath xlink:href="#linea" startOffset="30px">
+                <tspan class="texto">Texto de prueba</tspan>
+            </textPath>
+        </text>
+
+    </svg>

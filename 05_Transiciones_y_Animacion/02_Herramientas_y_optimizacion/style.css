@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+svg{
+    background-color: blueviolet;    
+}
+
+.cls-1 {
+    fill: #1d1d1b;
+}
+
+.cls-2 {
+    fill: #e30613;
+}
+
+.cls-3 {
+    fill: #fff;
+}
+
+.grupo {
+    stroke: chocolate;
+    stroke-width: 5px;
+}
+
+.start{
+    width: 500px;
+    height: 500px;
+}

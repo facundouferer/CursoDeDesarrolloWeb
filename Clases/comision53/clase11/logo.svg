@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="dibujo"
+   viewBox="0 0 500 500"
+   version="1.1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="0.832"
+     inkscape:cx="196.51442"
+     inkscape:cy="190.50481"
+     inkscape:window-width="1280"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="dibujo" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+        @import url(style.css);
+    </style>
+  </defs>
+  <title
+     id="title6">Dibujo 2</title>
+  <circle
+     class="primeraParte"
+     cx="252.33775"
+     cy="257.14545"
+     id="parte-rojo-externo"
+     r="245.52599"
+     style="stroke-width:3.83421" />
+  <circle
+     class="primeraParte"
+     id="parte-blanca"
+     cx="252.33775"
+     cy="257.14545"
+     r="203.09622"
+     style="stroke-width:3.83421" />
+  <circle
+     class="primeraParte"
+     id="parte-rojo-interno"
+     cx="252.33775"
+     cy="257.14545"
+     r="166.14124"
+     style="stroke-width:3.83421" />
+  <circle
+     class="azul"
+     id="parte-azul"
+     cx="252.33775"
+     cy="257.14545"
+     r="131.92369"
+     style="stroke-width:3.83421" />
+  <path
+     d="m 138.12182,220.81847 85.40989,1.51533 27.97287,-81.23182 27.40047,80.32114 87.45328,0.91068 -70.80862,50.56365 27.30119,80.40522 -71.11656,-50.73301 -70.35402,50.7076 26.17341,-82.54079 z"
+     id="estrella"
+     sodipodi:nodetypes="ccccccccccc"
+     style="stroke-width:3.83421"
+     inkscape:transform-center-x="2.4038462"
+     inkscape:transform-center-y="-9.6153846" />
+</svg>

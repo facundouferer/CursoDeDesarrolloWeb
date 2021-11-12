@@ -1,0 +1,11 @@
+svg{
+    background-color: rgb(94, 0, 117);
+}
+
+text{
+    font-size: 100px; 
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    stroke: black;
+    stroke-width: 1px;
+}

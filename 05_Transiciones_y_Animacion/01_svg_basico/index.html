@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SVG básico</title>
+  </head>
+
+  <body>
+    <svg width="1024" height="768">
+      <rect x="50" y="50" width="200" height="100" fill="blue" class="figura" />
+
+      <circle cx="360" cy="160" r="100" fill="red" class="figura" />
+
+      <line
+        x1="200"
+        y1="400"
+        x2="500"
+        y2="600"
+        stroke="black"
+        stroke-width="15"
+        stroke-linecap="round"
+      />
+
+      <polygon
+        class="figura"
+        points="170,490 170,391 252,335 425,326 369,408 "
+      />
+
+      <path id="linea" d="M300,500c0,0,329-416,658,0" class="textoCurvo" />
+
+      <text>
+        <textPath xlink:href="#linea" startOffset="30px">
+          <tspan class="texto">Texto de prueba</tspan>
+        </textPath>
+      </text>
+    </svg>
+  </body>
+</html>

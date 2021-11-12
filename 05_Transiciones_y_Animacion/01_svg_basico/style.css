@@ -1,0 +1,19 @@
+svg {
+    border: 1px solid;
+}
+
+.figura {
+    stroke-width: 5px;
+    stroke-linejoin: round;
+    stroke: green;
+}
+
+.textoCurvo {
+    fill: none;
+    stroke: aqua;
+}
+
+.texto{
+    fill: crimson;
+    font-size: 100px;
+}

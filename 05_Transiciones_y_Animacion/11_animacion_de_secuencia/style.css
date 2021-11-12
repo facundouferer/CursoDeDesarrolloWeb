@@ -1,0 +1,86 @@
+body {
+    background-color: #2c67bf;
+    width: 600px;
+}
+
+.objeto {
+    opacity: 0;
+}
+
+.redCircle1 {
+    fill: #b22234;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.whiteCircle {
+    fill: #ffffff;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.redCircle2 {
+    fill: #b22234;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.blueCircle {
+    fill: #3c3b6e;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.start {
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px;
+    animation-name: dibujarEstrella;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.capitainText {
+    fill: none;
+    stroke: darkgray;
+    stroke-width: 2;
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px;
+    animation-name: dibujarLetra;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes dibujarEstrella {
+    to {        
+        stroke-dashoffset: 0px;
+        fill: white;        
+    }
+}
+
+@keyframes dibujarLetra {
+    to {
+        stroke: white;
+        stroke-dashoffset: 0px;
+    }
+}

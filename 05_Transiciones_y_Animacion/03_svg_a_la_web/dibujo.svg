@@ -1,0 +1,16 @@
+<svg id="dibujo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 634 634">
+
+  <defs>
+    <style>
+      @import url(style.css);
+    </style>
+
+  </defs>
+
+  <title>dibujos</title>
+  <circle class="cls-1" cx="317" cy="317" r="317" />
+  <circle class="cls-2" cx="317" cy="317" r="273" />
+  <polygon class="cls-3"
+    points="317 79.9 370.2 243.7 542.5 243.7 403.1 345 456.3 508.8 317 407.5 177.7 508.8 230.9 345 91.5 243.7 263.8 243.7 317 79.9" />
+
+</svg>

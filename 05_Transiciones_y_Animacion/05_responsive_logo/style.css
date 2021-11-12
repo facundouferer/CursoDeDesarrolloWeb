@@ -1,0 +1,58 @@
+body {
+    background-color: #283477;;
+}
+
+.logo {
+    object-position: center center;
+}
+
+.red-circle {
+    fill: red;
+}
+
+.red {
+    fill: red;
+}
+
+.start {
+    fill: white;
+}
+
+.blue {
+    fill: #283477;
+}
+
+.white {
+    fill: white;
+}
+
+.text {
+    fill: white;
+}
+
+@media screen and (max-width:600px) {
+    .first-circle {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .secund-circle {
+        display: none;
+    }
+}
+
+.description {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+
+p {
+    color: white;
+}
+
+.logo-and-description{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

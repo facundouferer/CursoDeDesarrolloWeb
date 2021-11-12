@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 49">
+
+    <style>
+        @import url(style.css);
+    </style>
+
+    <defs>
+        <filter id="filtro">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+        </filter>
+    </defs>
+
+
+    <image filter="url(#filtro)" href="./imagen.jpg" x="0" y="0" height="50" />
+    <image href="./imagen.jpg" x="50" y="0" height="50" />
+
+</svg>

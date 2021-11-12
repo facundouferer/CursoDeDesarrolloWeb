@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.circulo1 {
+    fill: yellow;
+    animation: animacionCirculo1 5s infinite alternate;
+    animation-timing-function: cubic-bezier(0, 1.82, .89, -0.52);
+}
+
+.circulo2 {    
+    animation: animacionCirculo2 5s infinite alternate;
+}
+
+@keyframes animacionCirculo1 {
+    to {
+        transform: translateX(1080px);
+        fill: red;
+    }
+}
+
+@keyframes animacionCirculo2 {
+    0%{
+        fill: green;
+    }
+    50%{
+        fill: yellow;
+    }
+    100%{
+        transform: translateX(100px);
+        fill: red;
+    }
+}
+
+
+.circulo3{
+    fill: violet;
+}
+
+@keyframes sobreElCirculo{
+    to{
+        fill: white;
+    }
+}
+
+.circulo3:hover{
+    animation: sobreElCirculo 1s infinite alternate;
+}

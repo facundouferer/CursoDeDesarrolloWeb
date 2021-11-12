@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sistema de Íconos</title>
+</head>
+
+<body>
+
+    <svg style="display: none;">
+        <symbol id="icon-start" viewBox="-10 -10 310 300">
+            <polygon class="poligono"
+                points="144.6 0 178.7 105 289.2 105 199.8 170 233.9 275 144.6 210.1 55.2 275 89.4 170 0 105 110.5 105 144.6 0" />
+        </symbol>
+    </svg>
+
+    
+
+    <a href="#">
+        <h1>
+            <svg class="icon-start">
+                <use xlink:href="#icon-start" />
+            </svg>
+            Texto 
+        </h1>
+    </a>
+
+    <a href="#">
+        <h1>
+            <svg class="icon-start">
+                <use xlink:href="#icon-start" />
+            </svg>
+            Otro texto
+        </h1>
+    </a>
+
+
+</body>
+
+</html>

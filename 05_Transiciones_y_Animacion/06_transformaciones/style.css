@@ -1,0 +1,22 @@
+body {
+    background-color: burlywood;
+}
+
+svg {
+    background-color: crimson;
+    width: 100%;
+    height: 900px;
+}
+
+.rectangle {
+    fill: chartreuse;
+    animation: rotacion 3s linear infinite;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+}
+
+@keyframes rotacion {
+    to {
+        transform: skewX(50deg) rotate(360deg);
+    }
+}

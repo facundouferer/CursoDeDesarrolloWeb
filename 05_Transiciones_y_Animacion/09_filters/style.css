@@ -1,0 +1,7 @@
+svg{
+    background-color: brown;
+}
+
+svg image:hover{
+    filter: url(#filtro);
+}

@@ -1,0 +1,38 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 634 634">
+
+    <style>
+        @import url(style.css);
+    </style>
+
+    <defs>
+
+        <linearGradient id="gradient">
+            <stop offset="0%" stop-color="#FFFF00" />
+            <stop offset="100%" stop-color="#FFAA500" />
+        </linearGradient>
+
+        <linearGradient id="gradient2" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="blue" />
+            <stop offset="100%" stop-color="#33ff00" />
+        </linearGradient>
+
+        <pattern id="patronRepetitivo" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect width="10" height="10" fill="#770071" />
+            <circle cx="3" cy="3" r="3" fill="#ff0062" />
+        </pattern>
+
+    </defs>
+
+    <rect fill="url(#gradient)" x="10" y="10" width="100px" height="100px" />
+
+    <rect fill="url(#gradient2)" x="150" y="10" width="100px" height="100px" />
+
+    <text x="10" y="200"   fill="url(#gradient2)">
+        FACUNDO
+    </text>
+
+    <text x="10" y="300" fill="url(#patronRepetitivo)">
+        FACUNDO
+    </text>
+
+</svg>

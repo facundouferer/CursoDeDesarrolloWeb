@@ -1,0 +1,53 @@
+body {
+    background-color: #0000ff;
+    color: white;
+}
+
+#parte-azul {
+    fill: #002d5c;
+}
+
+#parte-rojo-externo {
+    fill: red;
+}
+
+#parte-rojo-interno {
+    fill: red;
+}
+
+#parte-blanca {
+    fill: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#estrella {
+    fill: white;
+    animation: rotar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 50% 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .primeraParte {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #parte-azul {
+        display: none;
+    }
+}
+
+@keyframes rotar {
+    to {
+        transform: rotate(360deg);
+        fill: red;
+    }
+}

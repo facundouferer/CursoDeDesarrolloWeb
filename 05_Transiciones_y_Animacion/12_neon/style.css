@@ -1,0 +1,50 @@
+body{
+    background-color: black;    
+    width: 1000px;
+}
+.firma {
+    fill: none;
+    stroke: #ff00ff9a;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 3870px;
+    stroke-dashoffset: 3870px;
+    animation-name: firmar;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes firmar{
+    to{
+        stroke-dashoffset: 0px;        
+    }
+}
+
+.labelInterruptor{
+    color: white;
+    cursor: pointer;
+}
+
+.interruptor:checked  ~* .sombra{    
+    opacity:0;   
+    animation-name: apareceSombra;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;  
+}
+
+.interruptor:checked  ~* .firma{    
+    stroke: #ff00ff;
+}
+
+.sombra{    
+    opacity:0;     
+}
+
+@keyframes apareceSombra{
+    to{
+        opacity:1;         
+    }
+}
