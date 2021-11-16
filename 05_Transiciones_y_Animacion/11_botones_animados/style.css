@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica;
+}
+
+a {
+    background-color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+a:hover {
+    animation-name: botones;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes botones {
+    from {
+        background-color: blueviolet;
+    }
+    to {
+        background-color: red;
+        padding: 15px;
+    }
+}

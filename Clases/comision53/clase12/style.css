@@ -1,0 +1,60 @@
+a {
+    background-color: deeppink;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+a:hover {
+    animation-name: animacionBotonistica;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 40px;
+    color: deeppink;
+    animation-name: animacionH1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+
+@keyframes animacionH1 {
+    0% {
+        font-size: 40px;
+    }
+    50% {
+        font-size: 50px;
+        color: dodgerblue;
+    }
+    100% {
+        font-size: 40px;
+    }
+}
+
+@keyframes animacionBotonistica {
+    0% {
+        background-color: deeppink;
+    }
+    50% {
+        background-color: black;
+        padding: 20px;
+        border: 5px solid deeppink
+    }
+    100% {
+        background-color: deeppink;
+    }
+}
+
+@keyframes animacionTo {
+    from {
+        background-color: deeppink;
+    }
+    to {
+        background-color: black
+    }
+}
