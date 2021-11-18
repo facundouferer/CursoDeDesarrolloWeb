@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica;
+}
+
+
+
+a {
+    background-color: #319019;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.danger {
+    background-color: red;
+}
+
+.normal {
+    background-color: cornflowerblue;
+}
+
+a:link {}
+
+a:visited {}
+
+a:focus {}
+
+a:hover {
+    animation-name: animacion_a_hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    box-shadow: 1px 1px 3px #505F4C;
+}
+
+li {
+    margin: 30px;
+}
+
+a:active {}
+
+@keyframes animacion_a_hover {
+    to {
+        opacity: 0.5;
+        padding: 10px;
+        bottom: 1px;
+        right: 1px;
+        box-shadow: 1px 1px 8px #505F4C;
+    }
+}
