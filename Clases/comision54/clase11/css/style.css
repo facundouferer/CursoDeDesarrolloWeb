@@ -1,0 +1,51 @@
+body {
+    background-color: #9D00AA;
+    animation-name: fondoFeo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.cuadrado {
+    background-color: rgb(45, 156, 15, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.botonCopado {
+    background-color: rgb(209, 142, 9, 0.75);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.botonCopado:hover {
+    box-shadow: 0px 0px 10px #AF601A;
+    color: white;
+}
+
+.botonCopado:visited {}
+
+.botonCopado:focus {
+    animation-name: animarBoton;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.botonCopado:active {
+    background-color: transparent;
+}
+
+@keyframes animarBoton {
+    to {
+        background-color: rgb(209, 142, 9, 1.0);
+        box-shadow: 0px 0px 10px white;
+    }
+}
+
+@keyframes fondoFeo {
+    to {
+        background-color: black;
+    }
+}

@@ -1,0 +1,55 @@
+a {
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: dodgerblue;
+}
+
+a:hover {
+    color: white;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+
+.dragon {
+    background-color: rgb(120, 40, 31);
+}
+
+.dragon:hover {
+    background-color: rgb(231, 76, 60);
+}
+
+.dragon:focus {
+    background-color: rgb(211, 84, 0);
+    box-shadow: 0px 0px 10px #E67E22;
+}
+
+.menta {
+    background-color: rgb(24, 106, 59);
+}
+
+.menta:hover {
+    background-color: rgb(35, 155, 86);
+}
+
+.menta:focus {
+    background-color: rgb(88, 214, 141);
+    color: rgb(11, 83, 69);
+    box-shadow: 0px 0px 10px #27AE60;
+}
+
+.tresd {
+    background: linear-gradient(#4A235A, #C39BD3);
+}
+
+.tresd:hover {
+    background: linear-gradient(#9B59B6, #E8DAEF);
+}
+
+.tresd:focus {
+    box-shadow: 1px 1px 10px #A569BD;
+}
