@@ -1,0 +1,36 @@
+body{
+    background-color: deepskyblue;
+    font-family: Helvetica;
+    animation-name: animacionDeFondo;
+    animation-duration: 10s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+strong{
+    color: black;
+    padding: 5px;
+    background-color: chartreuse;
+    animation-name: subrayado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacionDeFondo{
+    to{
+        background-color: red;
+    }
+}
+
+@keyframes subrayado{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: darkorange;
+    }
+}
