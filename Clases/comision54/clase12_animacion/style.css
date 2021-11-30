@@ -1,8 +1,7 @@
-body{
-    background-color: deepskyblue;
+body{    
     font-family: Helvetica;
     animation-name: animacionDeFondo;
-    animation-duration: 10s;    
+    animation-duration: 5s;    
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -12,25 +11,47 @@ strong{
     padding: 5px;
     background-color: chartreuse;
     animation-name: subrayado;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
+h1{    
+    animation-name: animacionH1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacionH1{
+    0%{
+        color: black;
+    }
+    50%{
+        color: grey;
+    }
+    100%{
+        color: white;
+    }
+}
+
 @keyframes animacionDeFondo{
+    from{
+        background-color: white;
+    }
     to{
-        background-color: red;
+        background-color: black;
     }
 }
 
 @keyframes subrayado{
     0%{
-        background-color: yellow;
+        background-color: red;
     }
     50%{
-        background-color: blueviolet;
+        background-color: white;
     }
     100%{
-        background-color: darkorange;
+        background-color: red;
     }
 }
