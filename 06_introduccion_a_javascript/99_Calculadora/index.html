@@ -10,30 +10,43 @@
 </head>
 <body class="container">
     <h1>La Calculadora</h1>
+    <div class="row">
+        <div class="col-md-6">
+
+            <h2 id="resultado" class="resultado"> - </h2>
+
+            <form id="formulario">
+
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" id="numeroUno" class="form-control" placeholder="primer operador">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" id="numeroDos" class="form-control" placeholder="segundo operador">        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <button id="btnSumar" class="btn btn-primary btn-lg">+</button>
+                    <button id="btnRestar" class="btn btn-danger btn-lg">-</button>
+                    <button id="btnDividir" class="btn btn-warning btn-lg">/</button>            
+                    <button id="btnMultiplicar" class="btn btn-info btn-lg">*</button>
+                    <button id="btnPotencia" class="btn btn-secondary btn-lg">^</button>
+                    <button id="btnRaiz" class="btn btn-primary btn-lg">√</button>
+                </div>
+            </form>       
+            
+        </div>
+        <div class="col-md-6">
+            <h3>Historial: <button id="btnBorrarHistorial" class="btn btn-danger btn-lg">BORRAR</button> </h3>
+            <hr>
+            <div id="historial"></div>
+        </div>
+    </div>
     
-        <form id="formulario">
-
-        <div class="mb-3">
-            <div class="row">
-                <div class="col-lg-6">
-                    <input type="text" id="numeroUno" class="form-control" placeholder="primer operador">
-                </div>
-                <div class="col-lg-6">
-                    <input type="text" id="numeroDos" class="form-control" placeholder="segundo operador">        
-                </div>
-            </div>
-        </div>
-        
-        <div class="mb-3">
-            <button id="btnSumar" class="btn btn-primary btn-lg">SUMAR</button>
-            <button id="btnRestar" class="btn btn-danger btn-lg">RESTAR</button>
-            <button id="btnDividir" class="btn btn-warning btn-lg">DIVIDIR</button>            
-            <button id="btnMultiplicar" class="btn btn-info btn-lg">MULTIPLICAR</button>
-            <button id="btnPotencia" class="btn btn-secondary btn-lg">POTENCIA</button>
-        </div>
-    </form>
-
-    <h2 id="resultado"></h2>
+    
 
 <script src="calculadora.js"></script>
 <script src="bootstrap.bundle.min.js"></script>

@@ -33,6 +33,23 @@ btnPotencia.addEventListener("click", function(e){
     resolver("potencia");
 });
 
+var btnRaiz = document.getElementById("btnRaiz");
+btnRaiz.addEventListener("click", function(e){
+    e.preventDefault();    
+    resolver("raiz");
+});
+
+var historial = "";
+var contador = 0;
+
+var btnBorrarHistorial = document.getElementById("btnBorrarHistorial");
+btnBorrarHistorial.addEventListener("click", function(e){
+    e.preventDefault();
+    contador = 0;
+    document.getElementById("historial").innerHTML = "";
+    document.getElementById("resultado").textContent = "";
+});
+
 function resolver(operacion){
 
     var numeroUno = parseFloat(document.getElementById("numeroUno").value);
@@ -41,20 +58,37 @@ function resolver(operacion){
     switch(operacion){
         case "sumar":
             var resultado = numeroUno + numeroDos;
+            contador++;
+            historial = historial+ contador+") " + numeroUno + " + " + numeroDos + " = " + resultado + "<br>";
             break;
         case "restar":
+            contador++;
             var resultado = numeroUno - numeroDos;
+            historial = historial + contador+") " + numeroUno + " - " + numeroDos + " = " + resultado + "<br>";
             break;
         case "multiplicar":
+            contador++;
             var resultado = numeroUno * numeroDos;
+            historial = historial + contador+") " + numeroUno + " * " + numeroDos + " = " + resultado + "<br>";
             break;
         case "dividir":
+            contador++;
             var resultado = numeroUno / numeroDos;
+            historial = historial + contador+") " + numeroUno + " / " + numeroDos + " = " + resultado + "<br>";
             break;
         case "potencia":
+            contador++;
             var resultado = Math.pow(numeroUno, numeroDos);
+            historial = historial + contador+") " + numeroUno + " ^ " + numeroDos + " = " + resultado + "<br>";
+            break;
+        case "raiz":
+            contador++;
+            var resultado = Math.pow(numeroUno, 1/numeroDos);
+            historial = historial + contador+") " + numeroDos +"√" + numeroUno + " = " + resultado + "<br>";
+            break;
     }
-    
+    console.log(historial);
+    document.getElementById("historial").innerHTML = historial;
     document.getElementById("resultado").textContent = resultado;
 
 }
