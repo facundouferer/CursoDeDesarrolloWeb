@@ -1,5 +1,6 @@
 function mostrarMensaje(event){
-    event.preventDefault(); //Evita que se envie el formulario
+    
+    event.preventDefault();
     
     var uno = parseFloat(document.getElementById("uno").value);
     var dos = parseFloat(document.getElementById("dos").value);
