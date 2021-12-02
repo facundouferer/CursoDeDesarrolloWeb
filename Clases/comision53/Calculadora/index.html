@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="row justify-content-center align-items-center vh-100">
+
+    <br>
+
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+
+            <div class="alert alert-secondary" role="alert">
+
+                <div class="mb-3">
+                    <div id="resultado"></div>
+                </div>
+                    
+                <div class="mb-3">
+                   <input type="text" id="uno" placeholder="Primer Número" class="form-control form-control-lg">
+                </div>
+                    
+                <div class="mb-3">
+                    <input type="text" id="dos" placeholder="Segundo Número" class="form-control form-control-lg">
+                </div>
+
+                <div class="mb-3">
+                    <button id="btnSumar" class="btn btn-primary btn-lg">+</button>
+                    <button id="btnRestar" class="btn btn-warning btn-lg">-</button>
+                    <button id="btnMultiplicar" class="btn btn-dark btn-lg">*</button>
+                    <button id="btnDividir" class="btn btn-success btn-lg">/</button>
+                    <button id="btnPotencia" class="btn btn-danger btn-lg">^</button>
+                    <button id="btnRaiz" class="btn btn-info btn-lg">√</button>
+                </div>
+                
+            </div>            
+        </div>
+
+        <div class="col-lg-4">
+            <h2>Historial</h2>
+            <div id="historial"></div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+    
+<script src="script.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
