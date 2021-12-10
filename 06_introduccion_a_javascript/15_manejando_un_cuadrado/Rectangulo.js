@@ -7,7 +7,16 @@ class Rectangulo{
         this.x = x;
         this.y = y;
         this.z = z;
-    }    
+    }
+    
+    setAtributos(base, altura, color, x, y, z){
+        this.base = base;
+        this.altura = altura;
+        this.color = color;
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
 
     area(){
         return this.base * this.altura;

@@ -1,3 +1,6 @@
+var  rectangulo = new Rectangulo(300, 300, "black", 0, 0, 0);
+document.getElementById('resultado').innerHTML = rectangulo.dibujarse();
+
 var btnRotarX = document.getElementById("btnRotarX");
 btnRotarX.addEventListener("input", mostrarcambios);
 
@@ -27,7 +30,7 @@ function mostrarcambios(e){
     let y = document.getElementById('btnRotarY').value;
     let z = document.getElementById('btnRotarZ').value;
     
-    let rectangulo = new Rectangulo(altura, base, color, x, y, z);
+    rectangulo.setAtributos(altura, base, color, x, y, z);
      
     document.getElementById('labelAltura').textContent = "Altura ("+ rectangulo.base+")";
     document.getElementById('resultado').innerHTML = rectangulo.dibujarse();
