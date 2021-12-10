@@ -43,7 +43,8 @@ document.getElementById("btnBorrar").addEventListener("click", function() {
 
 function resolverOperacion(operacion) {
 
-    var uno = parseFloat(document.getElementById("uno").value);    
+    var uno = parseFloat(document.getElementById("uno").value);   
+     
     var dos = parseFloat(document.getElementById("dos").value);    
 
     var resultado = 0;
