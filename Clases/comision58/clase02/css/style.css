@@ -1,0 +1,23 @@
+body{
+    background-color: #9ffa90;   
+    font-family: sans-serif; 
+}
+
+article{
+    background-color:  #d7c5ff;    
+    border-radius: 10px;
+    padding: 10px;
+    border: #fc2300 solid 4px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+b{
+    background-color: #d0ff00;
+    color: black;
+}

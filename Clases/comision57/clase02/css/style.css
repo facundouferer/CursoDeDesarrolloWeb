@@ -1,0 +1,20 @@
+body{
+    background-image: url(../img/gatito.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+article{
+    background-color: white;
+}
+
+.clasePropia{
+    background-color: blueviolet;
+    color: white;
+    padding-left: 50px;
+}
