@@ -1,0 +1,77 @@
+body{
+    background-color:  #076d62;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1024px;   
+    font-family: sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    padding-top: 10px;
+    color: red;
+}
+
+article h1{    
+    color: #0774e1;
+    text-shadow: rgba(57, 185, 7, 0.418) 3px 3px 3px;
+}
+
+body div{
+    background-color: white;  
+    padding-top: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e19807;    
+}
+
+table tr {
+    border-bottom: 3px double #ddd;
+}
+
+.tabla-texto{
+    background-color: rgb(216, 98, 240, 0.5);
+}	
+
+footer{
+    margin-top: 30px;
+    margin-bottom: auto;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(red, yellow); 
+    border-radius: 20px;   
+}
+
+.analisis-de-bordeds{
+    background-color: red;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.adentro{
+    background-color: yellow;
+    border-radius: 0px;
+    border: 5px solid black;
+    padding: 10px;
+}
