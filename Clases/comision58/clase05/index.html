@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clase 05</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form action="#">
+      <h2>Datos personales</h2>
+      <input type="text" name="nombre" placeholder="Nombre" required />
+
+      <input type="text" name="apellido" placeholder="Apellido" />
+
+      <input type="number" name="dni" placeholder="DNI" />
+      <label>Fecha de nacimiento:</label>
+      <input type="date" name="fecha" />
+
+      <h2>Sexo:</h2>
+      <input type="radio" name="sexo" value="M" class="radioB" />Masculino
+      <input type="radio" name="sexo" value="F" class="radioB" />Femenino
+      <input type="radio" name="sexo" value="NB" class="radioB" />No Binario
+
+      <input type="email" name="email" placeholder="email" />
+
+      <input type="password" name="contraseña" placeholder="contraseña" />
+      <input
+        type="password"
+        name="contraseña"
+        placeholder="Confirmar contraseña"
+        required
+      />
+      <h2>Direccion</h2>
+      <select name="provincia">
+        <option value="Buenos Aires">Buenos Aires</option>
+        <option value="Catamarca">Catamarca</option>
+        <option value="Chaco">Chaco</option>
+        <option value="Chubut">Chubut</option>
+        <option value="Cordoba">Cordoba</option>
+        <option value="Corrientes">Corrientes</option>
+        <option value="Entre Rios">Entre Rios</option>
+        <option value="Formosa">Formosa</option>
+        <option value="Jujuy">Jujuy</option>
+        <option value="La Pampa">La Pampa</option>
+        <option value="La Rioja">La Rioja</option>
+        <option value="Mendoza">Mendoza</option>
+        <option value="Misiones">Misiones</option>
+        <option value="Neuquen">Neuquen</option>
+      </select>
+      <h2>Comentarios:</h2>
+      <textarea name="comentario"></textarea>
+      <h2>Estás seguro?</h2>
+      <input type="checkbox" name="check" value="si" class="radioB" /> quiero que todo esto sea
+      visto por otros usuarios
+      <br />
+      <button>💾​ Guardar</button>
+      <button class="gatito">
+        
+      </button>
+    </form>
+  </body>
+</html>
