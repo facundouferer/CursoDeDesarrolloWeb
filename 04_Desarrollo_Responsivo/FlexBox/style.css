@@ -1,0 +1,154 @@
+body {
+  background-color: #ff85b3;
+  font-family: "Helvetica";
+  color: #4700d8;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contenido {
+  background-color: #9900f0;
+  color: #f900bf;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+p {
+  color: #f900bf;
+  font-family: "Courier New";
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contenedor {
+  background-color: #f900bf;
+  padding: 10px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container5 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.container6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container7 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.container8 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container9 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nota que cuando estableces la dirección a una fila invertida 
+o columna, el inicio y el final también se invierten. */
+
+.container10 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* Cuando es una columna, justify-content cambia a vertical 
+ align-items a horizontal. */
+
+.container11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container12 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+.container13 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+.container14 {
+  display: flex;
+}
+
+.container14 .contenido1 {
+  order: 2;
+}
+
+.container14 .contenido2 {
+  order: 1;
+}
+
+.container14 .contenido3 {
+  order: 4;
+}
+
+.container14 .contenido4 {
+  order: 2;
+}
+
+.container15 {
+  display: flex;
+}
+
+.container15 .contenido4 {
+  order: -3;
+}
+
+.container16 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container17 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container18 {
+  display: flex;
+  flex-flow: column wrap;
+}

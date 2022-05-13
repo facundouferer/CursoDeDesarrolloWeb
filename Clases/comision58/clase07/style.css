@@ -1,0 +1,27 @@
+.pintado-contenedor{
+    height: 400px;
+    background-color: chartreuse;    
+    border: black 2px solid;
+}
+
+
+.contenedor{        
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.contenido{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: black 2px solid;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
