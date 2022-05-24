@@ -1,0 +1,105 @@
+body {
+  background-color: #eb5353;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1024px;
+  font-family: "Arial";
+}
+.pinturaUno {
+  background-color: #f9d923;
+  border-radius: 5px;
+  padding: 10px;
+  height: 400px;
+}
+
+p {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Courier New";
+}
+
+.pinturaDos {
+  background-color: #36ae7c;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contenedor1 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.contenido1 {
+  grid-column-start: 3;
+}
+
+.contenido2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.contenido3 {
+  grid-column-start: 5;
+  grid-column-end: 2;
+}
+
+.contenido4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.contenido5 {
+  grid-column-start: -3;
+}
+
+.contenido6 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.contenido7 {
+  grid-column-start: 1;
+  grid-column-end: span 5;
+}
+
+.contenido8 {
+  grid-column: 4/7;
+}
+
+.contenido9 {
+  grid-column: span 3/5;
+}
+
+.contenido10 {
+  grid-row: 3/7;
+}
+
+.contenido11 {
+  grid-column: 2/2;
+  grid-row: 5/5;
+}
+
+.contenido12 {
+  grid-column: 2/6;
+  grid-row: 1/6;
+}
+
+.contenido13 {
+  grid-area: 1/2/4/6;
+  order: 0;
+}
+
+.contenido14 {
+  background-color: red;
+  order: 0;
+}
+
+.contenido15 {
+  background-color: blue;
+  order: 1;
+}
