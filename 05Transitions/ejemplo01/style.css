@@ -1,0 +1,101 @@
+.container {
+  position: relative;
+}
+.caja {
+  width: 180px;
+  height: 180px;
+  background-color: #30b037;
+  color: #fff;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja1 {
+  background-color: #c0392b;
+}
+.caja1:hover {
+  background-color: #3f51b5;
+  font-size: 20px;
+  transition: all 1s linear;
+  text-shadow: 0 0 10px rgb(209, 255, 2);
+}
+.caja2 {
+  background-color: #9b59b6;
+  -webkit-transition: font-size 1s ease;
+  border-radius: 50%;
+  transition: all 1s ease;
+}
+.caja2:hover {
+  font-size: 28px;
+  border-radius: 0%;
+}
+.caja3 {
+  background-color: #2980b9;
+}
+.caja3:hover {
+  color: yellow;
+  transition: color 1s linear;
+}
+.caja4 {
+  background-color: #3498db;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja4:hover {
+  line-height: 300px;
+}
+.caja5 {
+  border-radius: 0px;
+  background-color: #17a589;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.caja5:hover {
+  border-radius: 20px;
+}
+.caja6 {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #f1c40f;
+}
+.caja6:hover {
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+}
+.caja7 {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #e67e22;
+}
+.caja7:hover {
+  opacity: 0.3;
+}
+.caja8 {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #95a5a6;
+}
+.caja8:hover {
+  border-style: solid;
+  border-color: #95a5a6;
+  border-color: #000;
+}
+.caja9 {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #2c3e50;
+}
+.caja9:hover {
+  margin: 80px;
+}
+.caja10 {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: black;
+}
+.caja10:hover {
+  padding: 30px;
+}

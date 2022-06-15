@@ -10,13 +10,13 @@ body {
   background-color: #f9d923;
   border-radius: 5px;
   padding: 10px;
-  height: 400px;
+  height: 300px;
 }
 
-p {
+pre {
   background-color: black;
   color: white;
-  padding: 10px;
+  padding-top: 10px;
   border-radius: 5px;
   font-family: "Courier New";
 }
@@ -26,8 +26,16 @@ p {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  margin: 5px;
 }
 
+.pinturaTres {
+  background-color: #187498;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
 .contenedor1 {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -95,11 +103,48 @@ p {
 }
 
 .contenido14 {
-  background-color: red;
+  grid-column: span 4;
   order: 0;
 }
 
 .contenido15 {
-  background-color: blue;
+  background-color: #187498;
   order: 1;
+}
+
+.contenido16 {
+  grid-area: 1/4/6/5;
+}
+
+.contenido17 {
+  grid-area: 2/3/5/6;
+}
+
+.contenedor2 {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.contenedor3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.contenido18 {
+  grid-area: 1/1/5/1;
+}
+
+.contenido19 {
+  grid-area: 1/5/5/4;
+}
+
+.contenedor4 {
+  display: grid;
+  grid-template: 70% 30% /1fr 1fr;
+}
+
+.contenido20 {
+  grid-area: 1/1/1/1;
 }

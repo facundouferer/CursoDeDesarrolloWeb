@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Grid Layout</title>
+</head>
+
+<body>
+    <h1>CSS Grid Layout</h1>
+    <h2>Contenedor 1 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 3;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido1">uno</div>
+    </div>
+
+    <h2>Contenedor 2 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 1; 
+            grid-column-end: 4;
+        }        
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido2">uno</div>
+    </div>
+
+    <h2>Contenedor 3 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 5; 
+            grid-column-end: 2;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido3">uno</div>
+    </div>
+
+    <h2>Contenedor 4 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 1; 
+            grid-column-end: 5;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido4">uno</div>
+    </div>
+
+    <h2>Contenedor 5 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: -3;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido5">uno</div>
+    </div>
+
+    <h2>Contenedor 6 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 2; 
+            grid-column-end: 4;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido6">uno</div>
+    </div>
+
+    <h2>Contenedor 7 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column-start: 1; 
+            grid-column-end: span 5;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido7">uno</div>
+    </div>
+
+    <h2>Contenedor 8 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column: 4/7;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido8">uno</div>
+    </div>
+
+    <h2>Contenedor 9 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column: span 3/5;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido9">uno</div>
+    </div>
+
+    <h2>Contenedor 10 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-row: 3/7;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido10">uno</div>
+    </div>
+
+    <h2>Contenedor 11 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column: 2/2; 
+            grid-row: 5/5;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido11">uno</div>
+    </div>
+
+    <h2>Contenedor 12 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-column: 2/6; 
+            grid-row: 1/6;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido12">uno</div>
+    </div>
+
+    <h2>Contenedor 13 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            grid-area: 1/2/4/6;
+        }
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido13">uno</div>
+    </div>
+
+    <h2>Contenedor 14 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno{
+            order: 0;
+        } 
+        .dos {
+            order: 1;
+        }
+
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido14">uno</div>
+        <div class="pinturaTres contenido15">dos</div>
+    </div>
+
+    <h2>Contenedor 15 </h2>
+    <pre>
+        .contenedor{
+            display: grid; 
+            grid-template-columns: 20% 20% 20% 20% 20%; 
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+        .uno {
+         grid-area: 1/4/6/5;
+        }
+        
+        .dos {
+            grid-area: 2/3/5/6;
+        }
+
+    </pre>
+    <div class="pinturaUno contenedor1">
+        <div class="pinturaDos contenido16">uno</div>
+        <div class="pinturaTres contenido17">dos</div>
+    </div>
+
+    <h2>Contenedor 15 </h2>
+    <pre>
+     .contenedor {
+        display: grid; 
+        grid-template-columns: repeat(8, 12.5%);
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+        .uno {
+            grid-area: 1/4/6/5;
+        }
+       
+       .dos {
+           grid-area: 2/3/5/6;
+       }
+    </pre>
+    <div class="pinturaUno contenedor2">
+        <div class="pinturaDos contenido16">uno</div>
+        <div class="pinturaTres contenido17">dos</div>
+    </div>
+
+    <h2>Contenedor 16 </h2>
+    <pre>
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+        
+        .uno {
+        grid-area: 1/1/5/1;
+        }
+            
+        .dos {
+        grid-area: 1/5/5/4;
+    }
+    </pre>
+    <div class="pinturaUno contenedor3">
+        <div class="pinturaDos contenido18">uno</div>
+        <div class="pinturaTres contenido19">dos</div>
+    </div>
+
+    <h2>Contenedor 17 </h2>
+    <pre>
+    .contenedor {
+        display: grid;
+        grid-template: 70% 30% /1fr 1fr;
+    }
+    
+    .uno {
+        grid-area: 1/1/1/1;
+    }
+    </pre>
+    <div class="pinturaUno contenedor4">
+        <div class="pinturaDos contenido20">uno</div>
+    </div>
+
+</body>
+
+</html>
