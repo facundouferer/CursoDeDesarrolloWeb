@@ -1,0 +1,70 @@
+body {
+  margin: auto;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.blue {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(0, 97, 120, 1) 53%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+
+.yelow {
+  background: yellow;
+}
+
+section > article {
+  width: 80%;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myButton {
+  box-shadow: inset 0px 0px
+    0px 0px #fbafe3;
+  background: linear-gradient(
+    to bottom,
+    #ff5bb0 5%,
+    #ef027d 100%
+  );
+  background-color: #ff5bb0;
+  border-radius: 42px;
+  border: 2px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 58px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px
+    #c70067;
+}
+.myButton:hover {
+  background: linear-gradient(
+    to bottom,
+    #ef027d 5%,
+    #ff5bb0 100%
+  );
+  background-color: #ef027d;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
