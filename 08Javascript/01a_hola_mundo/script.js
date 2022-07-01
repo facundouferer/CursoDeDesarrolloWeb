@@ -18,3 +18,4 @@ document.write("<h3>División Entera</h3>");
 document.write(dividendo + " / " + divisor + " = " + resultado);
 document.write("<br>");
 document.write(" Resto: " + resto);
+
