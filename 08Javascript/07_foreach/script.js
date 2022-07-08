@@ -1,4 +1,17 @@
-var lista = [1, 2, 3, 4, 5];
+var lista = ["inicio", "hola", "adios", "fin", "final"];
+
 lista.forEach(element => {
-    document.querySelector("ul").innerHTML += `<li>${element}</li>`;
+    document.querySelector("ol").innerHTML += `<li>${element}</li>`;
 });
+
+lista.forEach(element => {
+    document.querySelector("table").innerHTML +=
+        `<tr>
+            <td>${element}</td>
+            <td>${element}</td>
+            <td>${element}</td>
+        </tr>`;
+    console.log(element);
+}
+
+)

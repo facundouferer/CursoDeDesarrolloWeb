@@ -1,0 +1,31 @@
+#suma {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#multipliacion {
+  background-color: #0f0;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#division {
+  background-color: #00f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#resta {
+  background-color: #f0f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
